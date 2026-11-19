@@ -118,6 +118,9 @@ function cargarPreguntas() {
             questions = [...literatura];
             break;
 
+        case "nfsmw":
+            questions = [...nfsMostWanted];
+            break;
         case "general":
             questions = [
                 ...sociales,
@@ -125,6 +128,7 @@ function cargarPreguntas() {
                 ...economicas,
                 ...tecnologicas,
                 ...literatura,
+                ...nfsMostWanted,
             ];
             break;
 
